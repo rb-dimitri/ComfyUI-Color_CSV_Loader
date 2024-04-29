@@ -11,7 +11,7 @@ class ColorCSVLoader:
         ...
         """
         # Construct the path to the 'color.csv' file within the 'csv' subdirectory
-        color_path = os.path.join(folder_paths.base_path,"color.csv")
+        color_path = os.path.join(folder_paths.base_path,"csv","color.csv")
         
         colorstyles = {"Error loading color.csv, check the console": ["",""]}
         if not os.path.exists(color_path):
